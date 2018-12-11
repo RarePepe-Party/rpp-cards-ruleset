@@ -9,6 +9,14 @@ Each card should have one file representing their behaviour, this behaviour is a
 
 Rarepepe.Party uses [moonsharp] as Lua runtime, and all the inherent restrictions to it apply to rule scripts.
 
+## Git functionality for game rules
+
+Git provides a full set of versioning, milestone, tags and branches. This functionality will be fully support by Rarepepe.party for ruleset specification as follows:
+
+ * _Branches_: Branches will be treated as different variants of the game. Each branch should change its `descriptor.json` file to state what this ruleset variant does.
+ * _Tags_: Tags specify the version of the variant. Only tagged commits will be treated as valid versions (besides HEAD which will be treated as Beta version of the branch).
+ * _Forks_: Forked repos are treated as universes. There's only one official universe (RarePepe-Party/rpp-cards-ruleset) but user made universes are encouraged and will be actively promoted as long as the Github API provides fork inspection.
+
 ## Game modes
 
 The game has 3 modes where the cards can be used: Overworld, PvP and Team.
