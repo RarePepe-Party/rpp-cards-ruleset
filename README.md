@@ -11,7 +11,7 @@ Rarepepe.Party uses [moonsharp] as Lua runtime, and all the inherent restriction
 
 ## Git functionality for game rules
 
-Git provides a full set of versioning, milestone, tags and branches. This functionality will be fully support by Rarepepe.party for ruleset specification as follows:
+Git provides a full set of versioning, tags and branches. This functionality will be fully supported by Rarepepe.party for ruleset specification as follows:
 
  * _Branches_: Branches will be treated as different variants of the game. Each branch should change its `descriptor.json` file to state what this ruleset variant does.
  * _Tags_: Tags specify the version of the variant. Only tagged commits will be treated as valid versions (besides HEAD which will be treated as Beta version of the branch).
