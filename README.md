@@ -9,6 +9,26 @@ Each card should have one file representing their behaviour, this behaviour is a
 
 Rarepepe.Party uses [moonsharp] as Lua runtime, and all the inherent restrictions to it apply to rule scripts.
 
+## Game modes
+
+The game has 3 modes where the cards can be used: Overworld, PvP and Team.
+
+### Overworld
+
+In this mode the players move freely in a two dimensional map as part of a team, with resources available to be gathered by the activation of certain cards with sources that are engulfed by each team's territory. These resources are of a certain type, and can only be extracted by the use of certain cards.
+
+### PvP
+
+In this mode the players confront each other taking turns at activating their cards' abilities and using utility cards to gain an edge over the other player. Certain cards spawn "creatures" into the gameplay area and other cards create effects over cards, gameplay conditions or the other player.
+
+A game mechanic where players can help others in PvP is being developed and will be filled in in this space when developed.
+
+### Team
+
+In this mode the cards create effects over all the players in the team continuously or depending on certain conditions. These effects should be better the rarer the card.
+
+Cards played as "team cards" can potentially have upkeep costs for the whole team and each player should balance how much of these cards are in use at any time.
+
 ## Card lifecycle
 
 _Overworld events_:
