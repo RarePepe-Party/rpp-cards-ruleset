@@ -1,0 +1,10 @@
+{
+  "rppcrver": 1,
+  "name": "Official RarePepe.Party Rules",
+  "author": "The RarePepe.Party Team",
+  "icon": "",
+  "announcements": "https://rarepepe.party",
+  "required_token": "RAREPEPEPRTY",
+  "note": "Locked for RAREPEPEPRTY holders while the game is in alpha",
+  "lobby_endpoint": "https://rarepepe.party/lobby"
+}
