@@ -39,6 +39,8 @@ Cards played as "team cards" can potentially have upkeep costs for the whole tea
 
 ## Card lifecycle
 
+**Warning**: This is preliminary info, and could be subject to change.
+
 _Overworld events_:
 
  * OvwCreate: The card is instantiated for Overwold gameplay. 
